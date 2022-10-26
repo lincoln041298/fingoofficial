@@ -29,3 +29,22 @@
   height: 100%;
   object-fit: cover;
 }
+
+.swiper-pagination .swiper-pagination-bullet {
+  display: inline-block;
+  border-radius: 0.5rem;
+  height: 5px;
+  width: 50px;
+  background-color: #BDBDBD;
+  opacity: 1;
+}
+
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  display: inline-block;
+  border-radius: 0.5rem;
+  height: 5px;
+  width: 50px;
+  background-color: #f5821f;
+
+}

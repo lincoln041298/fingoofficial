@@ -91,10 +91,9 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide relative">
                 <p><img src="../img/Image hero slide 1.png" alt="banner" /></p>
-
                 <div class="absolute left-0 top-10 w-full">
                   <div class="max-w-containerMax mx-auto">
-                    <div class="text-left">
+                    <div class="text-left z-20">
                       <p
                         class="text-4xl leading-[52.6px] font-semibold text-primaryGreen w-[615px]"
                       >
@@ -129,119 +128,256 @@
                 </p>
               </div> -->
             </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="absolute w-full top-0 z-10 mt-10">
-          <div class="max-w-containerMax mx-auto">
-            <div class="w-[420px] ml-auto bg-whiteopacity rounded-xl py-6 px-5">
-              <h3 class="text-primaryGreen text-center text-4xl">
-                Tư Vấn Miễn Phí
-              </h3>
-              <form action="#" class="mt-6">
-                <div class="name flex flex-col">
-                  <label for="name" class="font-light"> Họ và tên </label>
-                  <div class="flex items-center mt-1">
-                    <div
-                      class="border rounded-l-lg border-r-0 border-slate-600 pl-2 form-input"
-                    >
-                      <p class="w-5 py-2.5">
-                        <img src="../img/users.png" alt="users" />
-                      </p>
-                    </div>
+        <div class="absolute w-full top-0 right-0 z-10">
+          <div class="relative mt-10 w-full max-w-containerMax mx-auto">
+            <div class="absolute right-0">
+              <div
+                class="w-[420px] ml-auto bg-whiteopacity rounded-xl py-6 px-5"
+              >
+                <h3 class="text-primaryGreen text-center text-4xl">
+                  Tư Vấn Miễn Phí
+                </h3>
+                <form action="#" class="mt-6">
+                  <div class="name flex flex-col">
+                    <label for="name" class="font-light"> Họ và tên </label>
+                    <div class="flex items-center mt-1">
+                      <div
+                        class="border rounded-l-lg border-r-0 border-slate-600 pl-2 form-input"
+                      >
+                        <p class="w-5 py-2.5">
+                          <img src="../img/users.png" alt="users" />
+                        </p>
+                      </div>
 
-                    <input
-                      type="text"
-                      class="bg-transparent w-full border border-l-0 border-slate-600 rounded-r-lg focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
-                      placeholder="Họ và tên của bạn"
-                    />
-                  </div>
-                </div>
-                <div class="birthday mt-4 flex flex-col">
-                  <label for="name" class="font-light"
-                    >Ngày tháng năm sinh</label
-                  >
-                  <div class="flex items-center mt-1">
-                    <div
-                      class="border rounded-l-lg border-r-0 border-slate-600 pl-2 form-input"
-                    >
-                      <p class="w-5 py-2.5">
-                        <img src="../img/perm_contact.png" alt="contact" />
-                      </p>
-                    </div>
-
-                    <input
-                      type="text"
-                      class="bg-transparent w-full border border-l-0 border-slate-600 rounded-r-lg focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
-                      placeholder="DD/MM/YYYY"
-                    />
-                  </div>
-                </div>
-                <div class="birthday mt-4 flex flex-col">
-                  <label for="name" class="font-light"
-                    >Tỉnh thành phố nơi ở hiện tại</label
-                  >
-                  <div class="flex items-center mt-1">
-                    <input
-                      type="text"
-                      class="bg-transparent w-full border rounded-l-lg border-r-0 border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative placeholder:text-black placeholder:font-light"
-                      placeholder="Chọn"
-                    />
-                    <div
-                      class="border pl-2 border-l-0 border-slate-600 rounded-r-lg"
-                    >
-                      <p class="w-5 py-4">
-                        <img src="../img/arrow_down.png" alt="arrow down" />
-                      </p>
+                      <input
+                        type="text"
+                        class="bg-transparent w-full border border-l-0 border-slate-600 rounded-r-lg focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
+                        placeholder="Họ và tên của bạn"
+                      />
                     </div>
                   </div>
-                </div>
+                  <div class="birthday mt-4 flex flex-col">
+                    <label for="name" class="font-light"
+                      >Ngày tháng năm sinh</label
+                    >
+                    <div class="flex items-center mt-1">
+                      <div
+                        class="border rounded-l-lg border-r-0 border-slate-600 pl-2 form-input"
+                      >
+                        <p class="w-5 py-2.5">
+                          <img src="../img/perm_contact.png" alt="contact" />
+                        </p>
+                      </div>
 
-                <div class="flex mt-4 custom-checkbox-form">
-                  <label class="container-checkbox pl-8 text-lg font-light">
-                    <input type="checkbox" checked="checked" />
-                    <span class="checkmark rounded-sm"></span>
-                    Nam
-                  </label>
-                  <label
-                    class="container-checkbox ml-10 pl-8 text-lg font-light rounded-lg"
-                  >
-                    <input type="checkbox" />
-                    <span class="checkmark rounded-sm"></span>
-                    Nữ
-                  </label>
-                </div>
+                      <input
+                        type="text"
+                        class="bg-transparent w-full border border-l-0 border-slate-600 rounded-r-lg focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
+                        placeholder="DD/MM/YYYY"
+                      />
+                    </div>
+                  </div>
+                  <div class="birthday mt-4 flex flex-col">
+                    <label for="name" class="font-light"
+                      >Tỉnh thành phố nơi ở hiện tại</label
+                    >
+                    <div class="flex items-center mt-1">
+                      <input
+                        type="text"
+                        class="bg-transparent w-full border rounded-l-lg border-r-0 border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative placeholder:text-black placeholder:font-light"
+                        placeholder="Chọn"
+                      />
+                      <div
+                        class="border pl-2 border-l-0 border-slate-600 rounded-r-lg"
+                      >
+                        <p class="w-5 py-4">
+                          <img src="../img/arrow_down.png" alt="arrow down" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-                <div class="birthday mt-4 flex flex-col">
-                  <label for="name" class="font-light">Số CMND</label>
-                  <div class="flex items-center mt-1">
-                    <input
-                      type="text"
-                      class="bg-transparent w-full border rounded-lg border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
-                    />
+                  <div class="flex mt-4 custom-checkbox-form">
+                    <label class="container-checkbox pl-8 text-lg font-light">
+                      <input type="checkbox" checked="checked" />
+                      <span class="checkmark rounded-sm"></span>
+                      Nam
+                    </label>
+                    <label
+                      class="container-checkbox ml-10 pl-8 text-lg font-light rounded-lg"
+                    >
+                      <input type="checkbox" />
+                      <span class="checkmark rounded-sm"></span>
+                      Nữ
+                    </label>
                   </div>
-                </div>
-                <div class="birthday mt-4 flex flex-col">
-                  <label for="name" class="font-light">Số điện thoại</label>
-                  <div class="flex items-center mt-1">
-                    <input
-                      type="text"
-                      class="bg-transparent w-full border rounded-lg border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
-                    />
+
+                  <div class="birthday mt-4 flex flex-col">
+                    <label for="name" class="font-light">Số CMND</label>
+                    <div class="flex items-center mt-1">
+                      <input
+                        type="text"
+                        class="bg-transparent w-full border rounded-lg border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
+                      />
+                    </div>
                   </div>
-                </div>
-                <button
-                  class="uppercase px-[30px] bg-gradient-to-l from-#F79922 to-#FF6B00"
-                >
-                  gủi thông tin tư vấn
-                </button>
-              </form>
+                  <div class="birthday mt-4 flex flex-col">
+                    <label for="name" class="font-light">Số điện thoại</label>
+                    <div class="flex items-center mt-1">
+                      <input
+                        type="text"
+                        class="bg-transparent w-full border rounded-lg border-slate-600 focus-visible:outline-none text-[#BDBDBD] py-2 px-5 relative"
+                      />
+                    </div>
+                  </div>
+                  <div class="text-center w-full">
+                    <button
+                      class="uppercase mt-6 px-[30px] py-2 bg-gradient-to-l from-[#F79922] to-[#FF6B00] rounded-full text-white"
+                    >
+                      gủi thông tin tư vấn
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <section class="bg-gradient-to-t from-[#EBE2D7] to-[#FFFFFF]">
+        <div class="max-w-containerMax mx-auto mt-28 pb-[75px] text-center">
+          <h3 class="text-4xl font-semibold text-primaryGreen">
+            Bạn muốn so sáng gì?
+          </h3>
+          <div class="grid grid-cols-4 mt-20 gap-y-10">
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/4761-collecting-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay tiền mặt >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/another-collection-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay tín chấp >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/other-collection-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay thế chấp >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/86328-transfer-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay mua nhà >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/58173-money-for-car.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay mua xe ô tô >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/visa-card.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Thẻ tín dụng >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/pay-the-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay tiền nhanh >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/97611-smartphone-money-green.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay trả góp >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/69192-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay tiêu dùng >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img
+                  src="../img/117219-stickman-holding-a-pot-with-money-tree.png"
+                  alt="icon"
+                />
+              </p>
+              <p class="pb-6 font-semibold">Vay cầm cố >></p>
+            </div>
+            <div
+              class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
+            >
+              <p class="w-[209px] h-[190px] p-[22px]">
+                <img src="../img/55607-flying-wallet-money.png" alt="icon" />
+              </p>
+              <p class="pb-6 font-semibold">Vay tiền online >></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="max-w-containerMax mx-auto mt-28 text-center">
+          <div class="mb-4">
+            <h3 class="text-4xl font-semibold text-primaryGreen">
+              Về chúng tôi
+            </h3>
+            <p class=" px-24">
+              <span class="text-primaryOrange">Fingo</span>
+              bên cạnh việc cung cấp hệ thống, tư vấn giải pháp về các chương
+              trình vay, thẻ tín dụng phù hợp, Fingo còn hỗ trợ xử lý hồ sơ vay
+              vốn tiêu dùng cũng như làm thẻ tín dụng miễn phí cho khách hàng
+              đến khi hoàn thành tất cả mọi thủ tục. Các dịch vụ này đều được
+              đỗi ngũ Fingo tư vấn miễn phí.
+            </p>
+          </div>
+          <button class="text-primaryOrange mx-auto flex items-center">
+            Xem thông tin nhiều hơn
+            <p class="w-4 ml-5"><img src="../img/arrowright.png" alt="arrow"></p>
+          </button>
+
+          <div class="guide-fingo">
+            <div>
+              <h3>Cách sử dụng Fingo</h3>
+              <p>3 bước đơn giản để tìm kiếm sản phẩm tài chính phù hợp với Fingo
+              </p>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,

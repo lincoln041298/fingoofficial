@@ -12,6 +12,9 @@ module.exports = {
       maxWidth: {
         containerMax: "1160px",
       },
+      boxShadow: {
+        'shadowlg': '10px -7px #F2F2F2'
+      }
     },
   },
   plugins: [],
