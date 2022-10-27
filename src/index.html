@@ -728,48 +728,69 @@
                 nhận được sự quan tâm của đông đảo khách hàng tại Việt Nam.
               </p>
             </div>
-            <div class="mt-10">
+            <div class="mt-10 mb-12 relative">
+              <div class="swiper-button-nextv2 absolute -right-10 top-1/2 z-10">
+                <p class="w-[19px]">
+                  <img src="../img/slide-right.png" alt="arrow right" />
+                </p>
+              </div>
+              <div class="swiper-button-prevv2 absolute -left-10 top-1/2 z-10">
+                <p class="w-[19px]">
+                  <img src="../img/slide-left.png" alt="arrow left" />
+                </p>
+              </div>
               <div class="swiper mySwiper-slice">
-                <div class="swiper-wrapper relative">
-                  <div class="swiper-slide">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide extend-switch">
                     <p><img src="../img/VTV1-logo.png" alt="logo vtv" /></p>
+                    <p class="text-sm font-light mt-5">Xem chi tiết >></p>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide extend-switch">
                     <p>
                       <img
                         src="../img/Vietnamnet-Logo.png"
                         alt="logo vietnamnet"
                       />
                     </p>
+                    <p class="text-sm font-light mt-5">Xem chi tiết >></p>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide extend-switch">
                     <p>
                       <img src="../img/VnExpress_logo.png" alt="logo express" />
                     </p>
+                    <p class="text-sm font-light mt-5">Xem chi tiết >></p>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide extend-switch">
                     <p>
                       <img
                         src="../img/nhip-cau-dau-tu.png"
                         alt="logo nhiep cau dau tu"
                       />
                     </p>
+                    <p class="text-sm font-light mt-5">Xem chi tiết >></p>
                   </div>
                 </div>
-                <div class="swiper-button-nextv2 absolute right-0 top-1/2 z-10">
-                  <p class="w-[19px]">
-                    <img src="../img/slide-right.png" alt="arrow right-0" />
-                  </p>
-                </div>
-                <div class="swiper-button-prevv2 absolute left-0 top-1/2 z-10">
-                  <p class="w-[19px]">
-                    <img src="../img/slide-left.png" alt="arrow left" />
-                  </p>
-                </div>
+
                 <!-- <div class="swiper-pagination"></div> -->
               </div>
             </div>
-            <div></div>
+            <div class="flex gap-x-6">
+              <div class="relative">
+                <img src="../img/zaghook.png" alt="zag hook" />
+                <button class="absolute top-1/2 right-1/2 transform translate-x-3">
+                  <img src="../img/playbutton.png" alt="play button" />
+                </button>
+              </div>
+              <div class="relative">
+                <img src="../img/pump.png" alt="pump" />
+                <button class="absolute top-1/2 right-1/2 transform translate-x-3">
+                  <img src="../img/playbutton.png" alt="play button" />
+                </button>
+              </div>
+              <div class="relative">
+                <img src="../img/seethebeach.png" alt="see beach" />
+              </div>
+            </div>
             <div></div>
             <div></div>
           </div>
@@ -780,7 +801,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
+      spaceBetween: 10,
       centeredSlides: true,
       autoplay: {
         delay: 2500,

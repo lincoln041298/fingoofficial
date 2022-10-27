@@ -46,3 +46,7 @@
   width: 50px;
   background-color: #f5821f;
 }
+
+.extend-switch {
+  flex-direction: column;
+}
