@@ -34,17 +34,41 @@
   display: inline-block;
   border-radius: 0.5rem;
   height: 5px;
-  width: 50px;
+  width: 10px;
   background-color: #bdbdbd;
   opacity: 1;
+}
+
+@media screen and (min-width: 769px) {
+  .swiper-pagination .swiper-pagination-bullet {
+    display: inline-block;
+    border-radius: 0.5rem;
+    height: 5px;
+    width: 50px;
+    background-color: #bdbdbd;
+    opacity: 1;
+  }
+  
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
   display: inline-block;
   border-radius: 0.5rem;
   height: 5px;
-  width: 50px;
+  width: 10px;
   background-color: #f5821f;
+ 
+}
+
+@media screen and (min-width: 769px) {
+  .swiper-pagination .swiper-pagination-bullet-active {
+    display: inline-block;
+    border-radius: 0.5rem;
+    height: 5px;
+    width: 50px;
+    background-color: #f5821f;
+   
+  }
 }
 
 .extend-switch {
