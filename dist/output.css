@@ -1325,11 +1325,6 @@ html {
   padding-right: 62px;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .py-\[21px\] {
   padding-top: 21px;
   padding-bottom: 21px;
@@ -1548,14 +1543,14 @@ html {
   color: rgb(245 130 31 / var(--tw-text-opacity));
 }
 
-.text-\[\#BDBDBD\] {
-  --tw-text-opacity: 1;
-  color: rgb(189 189 189 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#BDBDBD\] {
+  --tw-text-opacity: 1;
+  color: rgb(189 189 189 / var(--tw-text-opacity));
 }
 
 .text-red-800 {
@@ -1587,6 +1582,16 @@ html {
   font-weight: 300;
 }
 
+.placeholder\:text-\[\#BDBDBD\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(189 189 189 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-\[\#BDBDBD\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(189 189 189 / var(--tw-text-opacity));
+}
+
 .placeholder\:text-black::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1605,16 +1610,6 @@ html {
 .placeholder\:text-white::placeholder {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-\[\#BDBDBD\]::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(189 189 189 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-\[\#BDBDBD\]::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(189 189 189 / var(--tw-text-opacity));
 }
 
 .before\:absolute::before {
