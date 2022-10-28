@@ -115,4 +115,29 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  .news-card {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .content-news-card {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .footer-control {
+    background-image: url("../img/Union.png");
+    background-size: cover;
+  }
+
+  .email-form {
+    background-image: url("../img/guesswhoemail.png");
+    background-size: cover;
+    background-clip: border-box;
+  }
 }

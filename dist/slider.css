@@ -49,4 +49,28 @@
 
 .extend-switch {
   flex-direction: column;
+  background-color: #fafafa;
+}
+
+.custom-imgslide img {
+  width: inherit;
+  height: inherit;
+}
+
+.custom-imgslide .text-linear {
+  font-size: 20px;
+  background: linear-gradient(to right, #ff6b00, #f79922);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.swiper-paginationv3 .swiper-pagination-bullet-active {
+  background-color: #f5821f;
+}
+
+.swiper-paginationv4 > .swiper-pagination-bullet-active {
+  width: 20px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #333333;
 }
