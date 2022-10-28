@@ -26,7 +26,7 @@
     <header>
       <section class="bg-primaryOrange">
         <div
-          class="max-w-containerMax mx-auto py-3 flex justify-between items-center"
+          class="max-w-containerMax mx-auto py-3 flex flex-col lg:flex-row gap-y-5 md:gap-y-0 justify-between items-center"
         >
           <p class="w-28 h-[60px]">
             <img src="../img/Logo.png" alt="Logo fingo" />
@@ -72,7 +72,9 @@
         </div>
       </section>
       <section>
-        <nav class="nav-menu max-w-containerMax mx-auto py-[17px]">
+        <nav
+          class="nav-menu max-w-containerMax mx-auto py-[17px] hidden md:block"
+        >
           <ul
             class="uppercase flex justify-between items-center text-base font-normal hover:cursor-pointer"
           >
@@ -89,7 +91,7 @@
       </section>
     </header>
     <main>
-      <div class="banner-slideonTop relative">
+      <section class="banner-slideonTop md:relative">
         <div class="manager-imagebanners">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -135,11 +137,11 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="absolute w-full top-0 right-0 z-10">
-          <div class="relative mt-10 w-full max-w-containerMax mx-auto">
-            <div class="absolute right-0">
+        <div class="md:absolute w-full md:top-0 md:right-0 md:z-10">
+          <div class="md:relative mt-10 w-full max-w-containerMax mx-auto">
+            <div class="md:absolute right-0">
               <div
-                class="w-[420px] ml-auto bg-whiteopacity rounded-xl py-6 px-5"
+                class="md:w-[420px] ml-auto bg-whiteopacity rounded-xl py-6 px-5"
               >
                 <h3 class="text-primaryGreen text-center text-4xl">
                   Tư Vấn Miễn Phí
@@ -248,13 +250,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <section class="bg-gradient-to-t from-[#EBE2D7] to-[#FFFFFF]">
         <div class="max-w-containerMax mx-auto mt-28 pb-[75px] text-center">
           <h3 class="text-4xl font-semibold text-primaryGreen">
             Bạn muốn so sáng gì?
           </h3>
-          <div class="grid grid-cols-4 mt-20 gap-y-10">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 gap-y-10"
+          >
             <div
               class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-[50px] shadow-shadowlg"
             >
@@ -372,7 +376,7 @@
           </button>
 
           <div
-            class="guide-fingo grid grid-cols-4 mt-24 place-content-center place-self-center place-items-center"
+            class="guide-fingo grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-24 place-content-center place-self-center place-items-center"
           >
             <div class="text-left col-span-1">
               <h4 class="text-primaryGreen uppercase text-xl">
@@ -419,9 +423,11 @@
               <div class="py-3 px-5">Các khoản vay</div>
               <div class="py-3 px-5">Sản phẩm khác</div>
             </div>
-            <div class="creadit-cardvisa grid grid-cols-2 gap-x-5 gap-y-5">
+            <div
+              class="creadit-cardvisa grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-5"
+            >
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard1.png" alt="card demo" />
@@ -468,7 +474,7 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard2.png" alt="card demo" />
@@ -515,7 +521,7 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard3.png" alt="card demo" />
@@ -563,7 +569,7 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard4.png" alt="card demo" />
@@ -610,7 +616,7 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard5.png" alt="card demo" />
@@ -657,7 +663,7 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard6.png" alt="card demo" />
@@ -727,18 +733,22 @@
               >
                 báo chí nói về chúng tôi
               </h2>
-              <p class="font-light mt-12 mx-[19rem]">
+              <p class="font-light md:mt-12 md:mx-[19rem]">
                 Fingo là một nền tảng tài chính công nghệ trẻ, năng động đang
                 nhận được sự quan tâm của đông đảo khách hàng tại Việt Nam.
               </p>
             </div>
             <div class="mt-10 mb-12 relative">
-              <div class="swiper-button-nextv2 absolute -right-10 top-1/2 z-10">
+              <div
+                class="swiper-button-nextv2 absolute right-5 md:-right-10 top-1/2 z-10"
+              >
                 <p class="w-[19px]">
                   <img src="../img/slide-right.png" alt="arrow right" />
                 </p>
               </div>
-              <div class="swiper-button-prevv2 absolute -left-10 top-1/2 z-10">
+              <div
+                class="swiper-button-prevv2 absolute left-5 md:-left-10 top-1/2 z-10"
+              >
                 <p class="w-[19px]">
                   <img src="../img/slide-left.png" alt="arrow left" />
                 </p>
@@ -807,9 +817,9 @@
               <p><img src="../img/righttop.png" alt="border" /></p>
               <p><img src="../img/rightbottom.png" alt="border" /></p>
               <div
-                class="bg-white rounded-[50px] flex items-center justify-between gap-x-[66px] px-14"
+                class="bg-white rounded-[50px] flex flex-col md:flex-row items-center justify-between gap-x-[66px] px-14"
               >
-                <p class="shrink-0">
+                <p class="md:shrink-0">
                   <img src="../img/socialmedia-fb.png" alt="using social" />
                 </p>
 
@@ -954,7 +964,9 @@
             </div>
 
             <div class="mt-[90px] pb-12">
-              <div class="grid grid-cols-4 gap-x-5 cursor-pointer">
+              <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 cursor-pointer"
+              >
                 <div class="col-span-1 text-left">
                   <h3
                     class="uppercase text-primaryGreen text-4xl font-bold pt-5"
@@ -1078,7 +1090,7 @@
     <footer class="footer-control bg-[#FAFAFA]">
       <div class="max-w-containerMax mx-auto">
         <div
-          class="email-form py-[75px] px-44 flex items-center justify-between"
+          class="email-form py-5 md:py-[75px] px-5 md:px-44 flex flex-col md:flex-row items-center justify-between"
         >
           <h4 class="text-2xl font-semibold text-white">
             Để lại email nhận ưu đãi từ Fingo
@@ -1211,7 +1223,9 @@
                 Email: info@fingo.vn
               </a>
             </div>
-            <div class="flex items-center gap-x-6 mt-14">
+            <div
+              class="flex flex-col md:flex-row items-start md:items-center gap-y-5 md:gap-y-0 gap-x-0 md:gap-x-6 mt-4 md:mt-14"
+            >
               <img src="../img/social/Facebook.png" alt="Facebook" />
               <img src="../img/social/Twitter.png" alt="Twitter" />
               <img src="../img/social/Pinterest.png" alt="Pinterest" />
@@ -1273,8 +1287,16 @@
     });
 
     var swiper = new Swiper(".mySwiper-slice", {
-      slidesPerView: 4,
-      spaceBetween: 10,
+      breakpoints: {
+        "@1.00": {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
       slidesPerGroup: 1,
       loop: true,
       loopFillGroupWithBlank: true,
@@ -1302,12 +1324,23 @@
     });
 
     var swiper = new Swiper(".mySwiper-logoBank", {
-      slidesPerView: 5,
-      spaceBetween: 30,
+      // slidesPerView: 5,
+      // spaceBetween: 30,
+      breakpoints: {
+        "@1.00": {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
       pagination: {
         el: ".swiper-paginationv4",
         clickable: true,
       },
     });
   </script>
+  <script src="./index.js"></script>
 </html>
