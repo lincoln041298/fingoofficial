@@ -72,8 +72,11 @@
         </div>
       </section>
       <section>
+        <div class="p-4 block md:hidden" id="menu-nav">
+          <i class="fa-solid fa-bars text-primaryGreen"></i>
+        </div>
         <nav
-          class="nav-menu max-w-containerMax mx-auto py-[17px] hidden md:block"
+          class=" active-menu max-w-containerMax mx-auto py-[17px]"
         >
           <ul
             class="uppercase flex justify-between items-center text-base font-normal hover:cursor-pointer"
@@ -103,7 +106,7 @@
                   <div class="max-w-containerMax mx-auto">
                     <div class="text-center md:text-left z-20">
                       <p
-                        class="text-sm text-center md:text-left md:text-2xl lg:text-4xl lg:leading-[52.6px] font-semibold text-primaryGreen lg:w-[615px]"
+                        class="text-center md:text-left text-lg md:text-2xl lg:text-4xl lg:leading-[52.6px] font-semibold text-primaryGreen lg:w-[615px]"
                       >
                         Fingo – giải pháp tài chính thế hệ số đã có mặt tại Việt
                         Nam
@@ -122,7 +125,7 @@
                       <div class="button-gradient inline-block mt-8">
                         <div class="rounded-full bg-white hover:bg-transparent">
                           <button
-                            class="uppercase py-1 md:py-3 px-2 md:px-5 text-xs md:text-base hover:text-white"
+                            class="uppercase py-2.5 md:py-3 px-2 md:px-5 text-xs md:text-base hover:text-white"
                           >
                             Trở thành tư vấn viên
                           </button>
@@ -417,11 +420,13 @@
       <section>
         <div class="banner-inside pb-[77px]">
           <div class="max-w-containerMax mx-auto text-center">
-            <h3 class="text-white text-4xl font-semibold pt-[66px]">
+            <h3
+              class="text-white text-xl md:text-2xl lg:text-4xl font-semibold pt-[66px]"
+            >
               Sản phẩm nổi bật
             </h3>
             <div
-              class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 md:mx-32 md:px-10 card-product"
+              class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 mx-5 md:mx-32 md:px-10 card-product"
             >
               <div class="py-3 px-2 md:px-0 active">Các loại thẻ</div>
               <div class="py-3 px-2 md:px-5">Các khoản vay</div>
@@ -431,18 +436,18 @@
               class="creadit-cardvisa grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-5"
             >
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard1.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -450,7 +455,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -459,7 +466,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Thẻ tín dụng Vietcombank Visa Chuẩn
                     </h4>
                   </div>
@@ -478,18 +487,18 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard2.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -497,7 +506,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -506,7 +517,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Thẻ tín dụng Vietcombank American Express®
                     </h4>
                   </div>
@@ -525,18 +538,18 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard3.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -544,7 +557,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -553,7 +568,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Thẻ tín dụng Vietcombank Vietnam Airlines Platinum
                       American Express®
                     </h4>
@@ -573,18 +590,18 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard4.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -592,7 +609,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -601,7 +620,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Thẻ tín dụng Vietcombank JCB Chuẩn
                     </h4>
                   </div>
@@ -620,18 +641,18 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard5.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -639,7 +660,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -648,7 +671,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Vietcombank visa vàng
                     </h4>
                   </div>
@@ -667,18 +692,18 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-start justify-between py-[21px] px-[15px] rounded-lg gap-x-2"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] mx-4 md:mx-0 rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard6.png" alt="card demo" />
                 </p>
-                <div class="block">
+                <div class="block text-left mt-5 md:mt-0">
                   <div class="flex items-center">
-                    <div class="flex">
+                    <div class="flex items-center">
                       <p class="w-5">
                         <img src="../img/starrating.png" alt="star rating" />
                       </p>
-                      <p class="ml-0.5">
+                      <p class="ml-0.5 text-sm md:text-base">
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
@@ -686,7 +711,9 @@
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
-                      <p class="font-extralight ml-0.5">8358 người đã mở thẻ</p>
+                      <p class="font-extralight text-sm md:text-base ml-0.5">
+                        8358 người đã mở thẻ
+                      </p>
                     </div>
                   </div>
                   <div class="flex items-center gap-x-2 mt-3">
@@ -695,7 +722,9 @@
                     >
                       Ưu đãi
                     </p>
-                    <h4 class="feature-lineclamp text-left">
+                    <h4
+                      class="feature-lineclamp text-left text-sm md:text-base"
+                    >
                       Thẻ tín dụng quốc tế Vietcombank Visa Platinum
                     </h4>
                   </div>
@@ -733,11 +762,13 @@
           <div class="text-center">
             <div>
               <h2
-                class="text-[42px] leading-[ 61.36px] font-semibold text-red-800 uppercase"
+                class="text-xl md:text-2xl lg:text-[42px] lg:leading-[ 61.36px] font-semibold text-red-800 uppercase"
               >
                 báo chí nói về chúng tôi
               </h2>
-              <p class="font-light md:mt-12 md:mx-[19rem]">
+              <p
+                class="font-light md:mt-12 mx-6 md:mx-[19rem] text-sm md:text-base"
+              >
                 Fingo là một nền tảng tài chính công nghệ trẻ, năng động đang
                 nhận được sự quan tâm của đông đảo khách hàng tại Việt Nam.
               </p>
@@ -792,7 +823,9 @@
                 <!-- <div class="swiper-pagination"></div> -->
               </div>
             </div>
-            <div class="flex gap-x-6">
+            <div
+              class="flex flex-col md:flex-row items-center mx-6 md:mx-0 gap-y-6 md:gap-y-0 gap-x-6"
+            >
               <div class="relative">
                 <img src="../img/zaghook.png" alt="zag hook" />
                 <button
@@ -821,7 +854,7 @@
               <p><img src="../img/righttop.png" alt="border" /></p>
               <p><img src="../img/rightbottom.png" alt="border" /></p>
               <div
-                class="bg-white rounded-[50px] flex flex-col md:flex-row items-center justify-between gap-x-[66px] px-14"
+                class="bg-white rounded-[50px] flex flex-col md:flex-row items-center justify-between gap-x-[66px] px-5 md:px-14"
               >
                 <p class="md:shrink-0">
                   <img src="../img/socialmedia-fb.png" alt="using social" />
@@ -969,19 +1002,21 @@
 
             <div class="mt-[90px] pb-12">
               <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-5 cursor-pointer"
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-5 md:gap-y-0 gap-x-5 cursor-pointer"
               >
-                <div class="col-span-1 text-left">
+                <div class="col-span-1 text-center md:text-left">
                   <h3
-                    class="uppercase text-primaryGreen text-4xl font-bold pt-5"
+                    class="uppercase text-primaryGreen text-xl md:text-2xl lg:text-4xl font-bold pt-5"
                   >
                     Tin tức mới
                   </h3>
-                  <p class="font-light text-slate-500 text-4xl pt-3">
+                  <p
+                    class="font-light text-slate-500 text-xl md:text-2xl lg:text-4xl pt-3"
+                  >
                     Các sự kiện sắp tới, cẩm nang và tin tức mới nhất từ Fingo
                   </p>
                 </div>
-                <div class="bg-white rounded-2xl">
+                <div class="bg-white rounded-2xl mx-20 md:mx-0">
                   <p><img src="../img/Team.png" alt="get the money" /></p>
                   <div class="text-left py-7 px-3">
                     <h3 class="news-card text-2xl hover:text-primaryOrange">
@@ -1002,7 +1037,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="bg-white rounded-2xl">
+                <div class="bg-white rounded-2xl mx-20 md:mx-0">
                   <p>
                     <img
                       src="../img/guidehowtouse.png"
@@ -1028,7 +1063,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="bg-white rounded-2xl">
+                <div class="bg-white rounded-2xl mx-20 md:mx-0">
                   <p>
                     <img src="../img/getthemoney.png" alt="get the money" />
                   </p>
@@ -1094,14 +1129,14 @@
     <footer class="footer-control bg-[#FAFAFA]">
       <div class="max-w-containerMax mx-auto">
         <div
-          class="email-form py-5 md:py-[75px] px-5 md:px-44 flex flex-col md:flex-row items-center justify-between"
+          class="hidden email-form py-5 md:py-[75px] px-5 md:px-44 md:flex flex-col md:flex-row items-center justify-between"
         >
           <h4 class="text-2xl font-semibold text-white">
             Để lại email nhận ưu đãi từ Fingo
           </h4>
-          <div class="flex">
+          <div class="flex mt-5 md:mt-0">
             <input
-              class="py-3 px-6 rounded-full rounded-r-none border border-r-0 bg-transparent placeholder:font-light placeholder:text-white focus-visible:outline-none"
+              class="py-3 px-6 rounded-full rounded-r-none border border-r-0 bg-transparent placeholder:font-light text-white placeholder:text-white focus-visible:outline-none"
               type="text"
               placeholder="Email Address"
             />
@@ -1116,8 +1151,34 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12">
-          <div class="col-span-1">
+
+        <div
+          class="md:hidden bg-[#014452] py-5 md:py-[75px] px-5 md:px-44 flex flex-col md:flex-row items-center justify-between"
+        >
+          <h4 class="text-2xl font-semibold text-white">
+            Để lại email nhận ưu đãi từ Fingo
+          </h4>
+          <div class="flex mt-5 md:mt-0">
+            <input
+              class="py-3 px-6 rounded-full rounded-r-none border border-r-0 bg-transparent placeholder:font-light text-white placeholder:text-white focus-visible:outline-none"
+              type="text"
+              placeholder="Email Address"
+            />
+            <div
+              class="border rounded-full rounded-l-none p-1 border-l-0 cursor-pointer"
+            >
+              <p class="py-[15px] px-[30px] bg-white rounded-full">
+                <i
+                  class="fa-sharp fa-solid fa-paper-plane text-primaryOrange"
+                ></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-12 px-6 md:px-0"
+        >
+          <div class="col-span-1 mt-5 md:mt-0">
             <h4 class="uppercase text-2xl font-light">Vay tiền nhanh</h4>
             <ul class="font-light text-sm">
               <li class="pt-1.5">
@@ -1137,7 +1198,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-1">
+          <div class="col-span-1 mt-5 md:mt-0">
             <h4 class="uppercase text-2xl font-light">Vay tiền nhanh</h4>
             <ul class="font-light text-sm">
               <li class="pt-1.5">
@@ -1157,7 +1218,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-1">
+          <div class="col-span-1 mt-5 md:mt-0">
             <h4 class="uppercase text-2xl font-light">Vay tiền nhanh</h4>
             <ul class="font-light text-sm">
               <li class="pt-1.5">
@@ -1177,7 +1238,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-1">
+          <div class="col-span-1 mt-5 md:mt-0">
             <h4 class="uppercase text-2xl font-light">Vay tiền nhanh</h4>
             <ul class="font-light text-sm">
               <li class="pt-1.5">
@@ -1198,9 +1259,11 @@
             </ul>
           </div>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-x-12">
-          <div class="col-span-1">
-            <h4 class="uppercase text-2xl font-light">Vay tiền nhanh</h4>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-x-12 mx-6 md:mx-0"
+        >
+          <div class="col-span-1 mt-5 md:mt-0">
+            <h4 class="uppercase text-2xl font-light">Thông tin</h4>
             <p class="font-light mt-[19px]">
               Fingo Việt Nam được thành lập vào năm 2015. Dựa trên nền tảng công
               nghệ, Fingo cam kết mang đến những giải pháp tài chính tối ưu nhất
@@ -1230,33 +1293,51 @@
             <div
               class="flex flex-col md:flex-row items-start md:items-center gap-y-5 md:gap-y-0 gap-x-0 md:gap-x-6 mt-4 md:mt-14"
             >
-              <img src="../img/social/Facebook.png" alt="Facebook" />
-              <img src="../img/social/Twitter.png" alt="Twitter" />
-              <img src="../img/social/Pinterest.png" alt="Pinterest" />
-              <img src="../img/social/Linkedin.png" alt="Linkedin" />
-              <img src="../img/social/Instagram.png" alt="Instagram" />
-              <img src="../img/social/Youtube.png" alt="Youtube" />
-              <img src="../img/social/Flickr.png" alt="Flickr" />
-              <img src="../img/social/Tumbler.png" alt="Tumbler" />
-              <img src="../img/social/Reddit.png" alt="Reddit" />
+              <a href="#">
+                <img src="../img/social/Facebook.png" alt="Facebook" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Twitter.png" alt="Twitter" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Pinterest.png" alt="Pinterest" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Linkedin.png" alt="Linkedin" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Instagram.png" alt="Instagram" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Youtube.png" alt="Youtube" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Flickr.png" alt="Flickr" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Tumbler.png" alt="Tumbler" />
+              </a>
+              <a href="#">
+                <img src="../img/social/Reddit.png" alt="Reddit" />
+              </a>
             </div>
           </div>
         </div>
-        <div class="flex justify-around items-center mt-6 mx-20 cursor-pointer">
-          <a class="font-light text-sm hover:underline"> Chính sách bảo mật </a>
-          <p class="h-2 w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline"> Chính sách bảo mật </a>
-          <p class="h-2 w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline"> Chính sách bảo mật </a>
-          <p class="h-2 w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline"> Chính sách bảo mật </a>
-          <p class="h-2 w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline"> Chính sách bảo mật </a>
+        <div class="flex flex-col md:flex-row justify-around items-center mt-6 mx-20 cursor-pointer">
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
         </div>
         <p
           class="w-full h-[1px] bg-black my-6 relative after:content-[''] after:absolute after:left-0 after:-top-[0.15rem] after:w-1.5 after:h-1.5 after:rounded-full after:bg-black before:content-[''] before:absolute before:right-0 before:-top-[0.15rem] before:w-1.5 before:h-1.5 before:rounded-full before:bg-black"
         ></p>
-        <div class="text-sm font-light text-center pb-10">
+        <div class="text-sm font-light text-center pb-10 mx-6 md:mx-0">
           © 2021 - Bản quyền thuộc về tập đoàn Fingo Việt Nam ("Fingo"). Fingo
           sử dụng nền tảng công nghệ trí tuệ nhân tạo để kết nối người đi vay
           với đối tác cho vay, Fingo không hoạt động như người đi vay hay đối
