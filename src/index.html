@@ -72,15 +72,21 @@
         </div>
       </section>
       <section>
-        <div class="p-4 block md:hidden" id="menu-nav">
-          <i class="fa-solid fa-bars text-primaryGreen"></i>
+        <div class="p-4 inline-block md:hidden menu-opennav" >
+          <i class="fa-solid fa-bars text-primaryGreen" id="menu-opennav"></i>
         </div>
         <nav
           class="active-menu max-w-containerMax mx-auto md:py-[17px] nav-menu"
         >
           <ul
-            class="uppercase flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center text-base font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
-          >
+            class="list-menu uppercase flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center text-base font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
+            id="list-menu"
+            >
+            <li class="block md:hidden ml-auto">
+              <button class="close-button" id="close-button">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </li>
             <li class="active py-3 md:py-0">trang chủ</li>
             <li class="py-3 md:py-0">đăng ký vay tiền</li>
             <li class="py-3 md:py-0">MỞ THẺ TÍN DỤNG</li>
@@ -1323,16 +1329,28 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row justify-around items-center mt-6 mx-20 cursor-pointer">
-          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+        <div
+          class="flex flex-col md:flex-row justify-around items-center mt-6 mx-20 cursor-pointer"
+        >
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0">
+            Chính sách bảo mật
+          </a>
           <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0">
+            Chính sách bảo mật
+          </a>
           <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0">
+            Chính sách bảo mật
+          </a>
           <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0">
+            Chính sách bảo mật
+          </a>
           <p class="hidden md:block md:h-2 md:w-[1px] bg-black"></p>
-          <a class="font-light text-sm hover:underline mt-5 md:mt-0"> Chính sách bảo mật </a>
+          <a class="font-light text-sm hover:underline mt-5 md:mt-0">
+            Chính sách bảo mật
+          </a>
         </div>
         <p
           class="w-full h-[1px] bg-black my-6 relative after:content-[''] after:absolute after:left-0 after:-top-[0.15rem] after:w-1.5 after:h-1.5 after:rounded-full after:bg-black before:content-[''] before:absolute before:right-0 before:-top-[0.15rem] before:w-1.5 before:h-1.5 before:rounded-full before:bg-black"
