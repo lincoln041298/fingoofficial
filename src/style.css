@@ -172,4 +172,8 @@
   .max-w-containerMax {
     padding-inline: 15px;
   }
+
+  .adjusted-img > img {
+    width: 100%;
+  }
 }
