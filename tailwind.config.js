@@ -13,8 +13,8 @@ module.exports = {
         containerMax: "1160px",
       },
       boxShadow: {
-        'shadowlg': '10px -7px rgb(242, 242, 242, 0.5)'
-      }
+        shadowlg: "10px -7px rgb(242, 242, 242, 0.5)",
+      },
     },
   },
   plugins: [],
