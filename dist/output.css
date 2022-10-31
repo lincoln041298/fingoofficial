@@ -781,6 +781,14 @@ html {
   bottom: 2.5rem;
 }
 
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-right-10 {
+  right: -2.5rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -1833,6 +1841,11 @@ html {
     margin-right: 0px;
   }
 
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1843,6 +1856,10 @@ html {
 
   .md\:mt-14 {
     margin-top: 3.5rem;
+  }
+
+  .md\:ml-9 {
+    margin-left: 2.25rem;
   }
 
   .md\:block {
