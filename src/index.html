@@ -457,14 +457,15 @@
               Sản phẩm nổi bật
             </h3>
             <div
-              class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 md:mx-32 md:px-10 card-product"
+              class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 md:mx-32 md:px-0 card-product"
             >
-              <div class="py-3 px-2 md:px-0 active">Các loại thẻ</div>
-              <div class="py-3 px-2 md:px-5">Các khoản vay</div>
-              <div class="py-3 px-2 md:px-5">Sản phẩm khác</div>
+              <div class="py-3 px-2 md:px-10 tablinks active" onclick="openTag(event, 'checkcard')">Các loại thẻ</div>
+              <div class="py-3 px-2 md:px-10 tablinks " onclick="openTag(event, 'checkLoan')" >Các khoản vay</div>
+              <div class="py-3 px-2 md:px-10 tablinks" onclick="openTag(event, 'checkProducts')">Sản phẩm khác</div>
             </div>
             <div
-              class="creadit-cardvisa grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-5"
+              class="creadit-cardvisa tabcontent grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-5"
+              id="checkcard" 
             >
               <div
                 class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
@@ -774,7 +775,7 @@
                 </div>
               </div>
             </div>
-
+            <div id="checkLoan" class="text-white tabcontent">v2 jdfhskadjhfaskjldfh</div>
             <div class="mt-14 flex justify-center">
               <button
                 class="py-[10px] px-10 bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full flex items-center justify-between"
