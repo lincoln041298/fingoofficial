@@ -22,7 +22,11 @@ function openTag(e, tagName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
+    if(tabcontent[i] = 0) {
+      tabcontent[i].style.display = "grid";
+    }
     tabcontent[i].style.display = "none";
+  
   }
 
   tablinks = document.getElementsByClassName("tablinks");
@@ -33,3 +37,5 @@ function openTag(e, tagName) {
   document.getElementById(tagName).style = "display:grid";
   e.currentTarget.className += " active";
 }
+
+document.getElementById("defaultOpen").click();
