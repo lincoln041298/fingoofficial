@@ -22,11 +22,10 @@ function openTag(e, tagName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
-    if(tabcontent[i] = 0) {
+    if ((tabcontent[i] = 0)) {
       tabcontent[i].style.display = "grid";
     }
     tabcontent[i].style.display = "none";
-  
   }
 
   tablinks = document.getElementsByClassName("tablinks");
@@ -39,3 +38,20 @@ function openTag(e, tagName) {
 }
 
 document.getElementById("defaultOpen").click();
+
+var btnSeach = document.getElementById("btnSearch");
+var search = document.getElementById("search");
+var closeSeach = document.getElementById("closesearch");
+
+btnSeach.onclick = function () {
+  console.log("cbd");
+  search.classList.add("activeSearch");
+  btnSeach.classList.add("hiddenbtnSearch");
+  closeSeach.classList.add("activebtncloase");
+};
+
+closeSeach.onclick = function () {
+  search.classList.remove("activeSearch");
+  btnSeach.classList.remove("hiddenbtnSearch");
+  closeSeach.classList.remove("activebtncloase");
+};

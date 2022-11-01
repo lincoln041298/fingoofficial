@@ -50,11 +50,21 @@
             >
           </div>
           <div class="social flex items-center">
-            <a class="w-6">
+            <div class="flex items-center">
+              <input
+                class="text-sm placeholder:text-xs py-1 pl-3 pr-5 rounded-full focus-visible:outline-none w-0 invisible transition-all duration-200 ease-in-out"
+                id="search"
+                type="text"
+                placeholder="Nhập tìm kiếm sản phẩm"
+              />
+              <i class="fa-solid fa-xmark -ml-4 invisible" id="closesearch"></i>
+            </div>
+
+            <a class="w-6" id="btnSearch">
               <img src="../img/iconSearch.png" alt="icon social" />
             </a>
             <p class="h-[18px] w-[1px] bg-white ml-2"></p>
-            <a class="w-6 ml-4">
+            <a class="w-6 ml-4" id="btnSearch">
               <img src="../img/icontelegram.png" alt="icon social" />
             </a>
             <a class="w-6 ml-6">
@@ -129,7 +139,9 @@
                         <p class="text-primaryOrange inline-block">miễn phí</p>
                         cho khách hàng.
                       </div>
-                      <div class="button-gradient inline-block mt-8">
+                      <div
+                        class="button-gradient inline-block mt-8 transformTop"
+                      >
                         <div class="rounded-full bg-white hover:bg-transparent">
                           <button
                             class="uppercase py-2.5 md:py-3 px-2 md:px-5 text-xs md:text-base hover:text-white"
@@ -256,9 +268,9 @@
                   </div>
                   <div class="text-center w-full">
                     <button
-                      class="uppercase mt-6 px-[30px] py-2 bg-gradient-to-l from-[#F79922] to-[#FF6B00] rounded-full text-white"
+                      class="uppercase mt-6 px-[30px] py-2 bg-gradient-to-l from-[#F79922] to-[#FF6B00] rounded-full text-white transformTop"
                     >
-                      gủi thông tin tư vấn
+                      gửi thông tin tư vấn
                     </button>
                   </div>
                 </form>
@@ -460,20 +472,20 @@
               class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 md:mx-32 md:px-0 card-product"
             >
               <div
-                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange cursor-pointer"
                 onclick="openTag(event, 'checkcard')"
                 id="defaultOpen"
               >
                 Các loại thẻ
               </div>
               <div
-                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange cursor-pointer"
                 onclick="openTag(event, 'checkLoan')"
               >
                 Các khoản vay
               </div>
               <div
-                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange cursor-pointer"
                 onclick="openTag(event, 'checkProducts')"
               >
                 Sản phẩm khác
@@ -522,12 +534,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -573,12 +585,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -625,12 +637,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -676,12 +688,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -727,12 +739,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -778,12 +790,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -835,12 +847,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -887,12 +899,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -938,12 +950,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -989,12 +1001,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -1040,12 +1052,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>
@@ -1091,12 +1103,12 @@
                   </div>
                   <div class="flex items-center justify-left mt-5">
                     <button
-                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full"
+                      class="py-[5px] px-5 md:px-[25px] bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full transformTop"
                     >
                       Mở thẻ ngay
                     </button>
                     <button
-                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5"
+                      class="py-[5px] px-5 md:px-[25px] text-black rounded-full border ml-5 transformTop"
                     >
                       Liên hệ tư vấn
                     </button>

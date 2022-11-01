@@ -180,4 +180,19 @@
   .tabcontent {
     display: none;
   }
+
+  .transformTop {
+    @apply hover:translate-y-[-2px] transition;
+  }
+
+  .activeSearch {
+    visibility: visible !important;
+    width: 360px !important;
+  }
+  .activebtncloase {
+    visibility: visible !important;
+  }
+  .hiddenbtnSearch {
+    display: none;
+  }
 }
