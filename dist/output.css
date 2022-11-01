@@ -617,6 +617,7 @@ html {
 .activeSearch {
   visibility: visible !important;
   width: 360px !important;
+  opacity: 1 !important;
 }
 
 .activebtncloase {
@@ -624,7 +625,10 @@ html {
 }
 
 .hiddenbtnSearch {
-  display: none;
+  visibility: hidden !important;
+  width: 0px !important;
+  transition: all 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.5, 1);
 }
 
 *, ::before, ::after {
@@ -768,6 +772,10 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -860,8 +868,20 @@ html {
   margin-left: 50px;
 }
 
+.-mr-2 {
+  margin-right: -0.5rem;
+}
+
 .-ml-4 {
   margin-left: -1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.-ml-10 {
+  margin-left: -2.5rem;
 }
 
 .ml-2 {
@@ -894,10 +914,6 @@ html {
 
 .mt-1 {
   margin-top: 0.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .ml-10 {
@@ -1054,10 +1070,6 @@ html {
 
 .w-5 {
   width: 1.25rem;
-}
-
-.w-0 {
-  width: 0px;
 }
 
 .w-6 {
@@ -1396,9 +1408,9 @@ html {
   padding-bottom: 0.75rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .px-5 {
@@ -1419,11 +1431,6 @@ html {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-6 {
@@ -1687,18 +1694,14 @@ html {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .shadow-shadowlg {
   --tw-shadow: 10px -7px rgb(242, 242, 242, 0.5);
   --tw-shadow-colored: 10px -7px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .transition-all {
@@ -1930,6 +1933,10 @@ html {
     margin-right: 0px;
   }
 
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1964,6 +1971,10 @@ html {
 
   .md\:h-2 {
     height: 0.5rem;
+  }
+
+  .md\:w-0 {
+    width: 0px;
   }
 
   .md\:w-auto {
@@ -2121,6 +2132,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:invisible {
+    visibility: hidden;
+  }
+
   .lg\:absolute {
     position: absolute;
   }
@@ -2147,8 +2162,16 @@ html {
     margin-right: 5rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:ml-auto {
     margin-left: auto;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {

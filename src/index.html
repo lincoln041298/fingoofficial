@@ -49,36 +49,42 @@
               info@fingo.vn</a
             >
           </div>
-          <div class="social flex items-center">
-            <div class="flex items-center">
+          <div class="social flex flex-col lg:flex-row items-center">
+            <div class="flex items-center -mr-2">
               <input
-                class="text-sm placeholder:text-xs py-1 pl-3 pr-5 rounded-full focus-visible:outline-none w-0 invisible transition-all duration-200 ease-in-out"
+                class="text-sm placeholder:text-xs py-2 pl-3 pr-5 rounded-full focus-visible:outline-none md:w-0 visible lg:invisible transition-all duration-200 ease-in-out opacity-0"
                 id="search"
                 type="text"
                 placeholder="Nhập tìm kiếm sản phẩm"
               />
-              <i class="fa-solid fa-xmark -ml-4 invisible" id="closesearch"></i>
+              <i
+                class="fa-solid fa-xmark -ml-4 invisible z-10"
+                id="closesearch"
+              ></i>
             </div>
-
-            <a class="w-6" id="btnSearch">
-              <img src="../img/iconSearch.png" alt="icon social" />
-            </a>
-            <p class="h-[18px] w-[1px] bg-white ml-2"></p>
-            <a class="w-6 ml-4" id="btnSearch">
-              <img src="../img/icontelegram.png" alt="icon social" />
-            </a>
-            <a class="w-6 ml-6">
-              <img src="../img/iconFacebook.png" alt="icon social" />
-            </a>
-            <a class="w-6 ml-6">
-              <img src="../img/iconglobal.png" alt="icon social" />
-            </a>
-            <a class="w-6 ml-6">
-              <img src="../img/iconInstagram.png" alt="icon social" />
-            </a>
-            <a class="w-6 ml-6">
-              <img src="../img/iconTwitter.png" alt="icon social" />
-            </a>
+            <div
+              class="flex items-center justify-center mt-4 lg:mt-0 -ml-10 md:ml-0"
+            >
+              <a class="w-6 hidden lg:block" id="btnSearch">
+                <img src="../img/iconSearch.png" alt="icon social" />
+              </a>
+              <p class="h-[18px] w-[1px] bg-white ml-2 hidden lg:block"></p>
+              <a class="w-6 ml-4">
+                <img src="../img/icontelegram.png" alt="icon social" />
+              </a>
+              <a class="w-6 ml-6">
+                <img src="../img/iconFacebook.png" alt="icon social" />
+              </a>
+              <a class="w-6 ml-6">
+                <img src="../img/iconglobal.png" alt="icon social" />
+              </a>
+              <a class="w-6 ml-6">
+                <img src="../img/iconInstagram.png" alt="icon social" />
+              </a>
+              <a class="w-6 ml-6">
+                <img src="../img/iconTwitter.png" alt="icon social" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -1120,7 +1126,7 @@
             <div id="checkProducts" class="text-white tabcontent">v2 kkkkk</div>
             <div class="mt-14 flex justify-center">
               <button
-                class="py-[10px] px-10 bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full flex items-center justify-between"
+                class="py-[10px] px-10 bg-gradient-to-r from-[#FF6B00] to-[#F79922] text-white rounded-full flex items-center justify-between transformTop"
               >
                 Tải nhiều hơn
                 <p class="w-4 ml-2">
