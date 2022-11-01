@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -54,14 +57,17 @@
           >
             <div class="flex items-center w-full">
               <input
-                class="text-sm placeholder:text-xs py-2 pl-3 pr-8 rounded-full focus-visible:outline-none w-full lg:w-0 visible lg:invisible transition-all duration-200 ease-in-out opacity-100 lg:opacity-0"
+                class="placeholder:text-sm py-2 pl-4 pr-8 rounded-full focus-visible:outline-none w-full lg:w-0 visible lg:invisible transition-all duration-200 ease-in-out opacity-100 lg:opacity-0"
                 id="search"
                 type="text"
-                placeholder="Nhập tìm kiếm sản phẩm"
+                placeholder="Tìm kiếm..."
               />
               <i
                 class="fa-solid fa-xmark -ml-8 invisible p-2 cursor-pointer"
                 id="closesearch"
+              ></i>
+              <i
+                class="fa-solid fa-magnifying-glass -ml-8 lg:invisible p-2 cursor-pointer text-primaryOrange"
               ></i>
             </div>
             <div
@@ -73,7 +79,7 @@
               <p class="h-[18px] w-[1px] bg-white ml-2 hidden lg:block"></p>
 
               <i
-                class="fa-solid fa-bars text-white py-2 px-2 rounded-lg border border-white inline-block lg:hidden menu-opennav relative cursor-pointer"
+                class="fa-solid fa-bars text-white py-2 px-2 rounded-lg border border-white inline-block lg:hidden relative cursor-pointer"
                 id="menu-opennav"
               ></i>
 
