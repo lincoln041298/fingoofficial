@@ -24,12 +24,12 @@
     <title>Homepage - Fingo</title>
   </head>
   <body>
-    <header class="relative">
+    <header class="fixed left-0 right-0 z-10 lg:relative">
       <section class="bg-primaryOrange">
         <div
           class="max-w-containerMax mx-auto py-3 flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 justify-between items-center"
         >
-          <p class="w-28 h-[60px]">
+          <p class="w-28 h-[60px] hidden lg:block">
             <img src="../img/Logo.png" alt="Logo fingo" />
           </p>
           <div class="flex items-center">
@@ -49,27 +49,34 @@
               info@fingo.vn</a
             >
           </div>
-          <div class="social flex flex-col lg:flex-row items-center">
-            <div class="flex items-center">
+          <div
+            class="social flex flex-col lg:flex-row items-center w-full lg:w-auto"
+          >
+            <div class="flex items-center w-full">
               <input
-                class="text-sm placeholder:text-xs py-2 pl-3 pr-5 rounded-full focus-visible:outline-none md:w-0 visible lg:invisible transition-all duration-200 ease-in-out opacity-0"
+                class="text-sm placeholder:text-xs py-2 pl-3 pr-8 rounded-full focus-visible:outline-none w-full lg:w-0 visible lg:invisible transition-all duration-200 ease-in-out opacity-100 lg:opacity-0"
                 id="search"
                 type="text"
                 placeholder="Nhập tìm kiếm sản phẩm"
               />
               <i
-                class="fa-solid fa-xmark -ml-4 invisible z-10"
+                class="fa-solid fa-xmark -ml-8 lg:invisible p-2 cursor-pointer"
                 id="closesearch"
               ></i>
             </div>
             <div
-              class="flex items-center justify-center mt-4 lg:mt-0 -ml-10 md:ml-0"
+              class="flex items-center justify-start lg:justify-center mt-4 lg:mt-0 w-full lg:w-auto"
             >
-              <a class="w-6 hidden lg:block" id="btnSearch">
+              <a class="w-6 cursor-pointer hidden lg:block" id="btnSearch">
                 <img src="../img/iconSearch.png" alt="icon social" />
               </a>
               <p class="h-[18px] w-[1px] bg-white ml-2 hidden lg:block"></p>
-              <a class="w-6 ml-4">
+              <div
+                class="py-1 px-2 rounded-lg bg-white inline-block md:hidden menu-opennav relative"
+              >
+                <i class="fa-solid fa-bars text-black" id="menu-opennav"></i>
+              </div>
+              <a class="w-6 ml-10 lg:ml-4">
                 <img src="../img/icontelegram.png" alt="icon social" />
               </a>
               <a class="w-6 ml-6">
@@ -89,20 +96,22 @@
         </div>
       </section>
       <section>
-        <div class="p-4 inline-block md:hidden menu-opennav">
-          <i class="fa-solid fa-bars text-primaryGreen" id="menu-opennav"></i>
-        </div>
         <nav
           class="active-menu max-w-containerMax mx-auto md:py-[17px] nav-menu"
         >
           <ul
-            class="list-menu uppercase flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center text-base font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
+            class="list-menu uppercase flex flex-col lg:flex-row justify-start md:justify-between items-start md:items-center text-base font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
             id="list-menu"
           >
             <li class="block md:hidden ml-auto">
               <button class="close-button" id="close-button">
                 <i class="fa-solid fa-xmark"></i>
               </button>
+            </li>
+            <li>
+              <p class="w-28 h-[60px] block lg:hidden">
+                <img src="../img/Logo.png" alt="Logo fingo" />
+              </p>
             </li>
             <li class="active py-3 md:py-0">trang chủ</li>
             <li class="py-3 md:py-0">đăng ký vay tiền</li>
@@ -117,7 +126,7 @@
       </section>
     </header>
     <main>
-      <section class="banner-slideonTop md:relative">
+      <section class="banner-slideonTop md:relative pt-44 md:pt-0">
         <div class="manager-imagebanners">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
