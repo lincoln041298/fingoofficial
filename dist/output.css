@@ -1008,6 +1008,10 @@ html {
   margin-top: 3rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -2250,6 +2254,10 @@ html {
 
   .lg\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .lg\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .lg\:block {
