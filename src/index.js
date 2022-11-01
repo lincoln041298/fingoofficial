@@ -44,7 +44,6 @@ var search = document.getElementById("search");
 var closeSeach = document.getElementById("closesearch");
 
 btnSeach.onclick = function () {
-  console.log("cbd");
   search.classList.add("activeSearch");
   btnSeach.classList.add("hiddenbtnSearch");
   closeSeach.classList.add("activebtncloase");
