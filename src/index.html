@@ -27,7 +27,7 @@
     <header class="relative">
       <section class="bg-primaryOrange">
         <div
-          class="max-w-containerMax mx-auto py-3 flex flex-col lg:flex-row gap-y-5 md:gap-y-0 justify-between items-center"
+          class="max-w-containerMax mx-auto py-3 flex flex-col lg:flex-row gap-y-5 lg:gap-y-0 justify-between items-center"
         >
           <p class="w-28 h-[60px]">
             <img src="../img/Logo.png" alt="Logo fingo" />
@@ -151,11 +151,11 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="md:absolute w-full md:top-0 md:right-0 md:z-10">
-          <div class="md:relative mt-10 w-full max-w-containerMax mx-auto">
-            <div class="md:absolute right-0">
+        <div class="lg:absolute w-full md:top-0 md:right-0 md:z-10">
+          <div class="lg:relative mt-10 w-full max-w-containerMax mx-auto">
+            <div class="lg:absolute right-0">
               <div
-                class="md:w-[420px] ml-auto bg-whiteopacity rounded-xl py-6 px-5"
+                class="md:w-[420px] mx-auto lg:ml-auto bg-whiteopacity rounded-xl py-6 px-5"
               >
                 <h3 class="text-primaryGreen text-center text-3xl md:text-4xl">
                   Tư Vấn Miễn Phí
@@ -460,20 +460,20 @@
               class="flex items-center justify-between text-sm md:text-base border border-white rounded-full text-white my-12 md:mx-32 md:px-0 card-product"
             >
               <div
-                class="py-3 px-2 md:px-10 tablinks active"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
                 onclick="openTag(event, 'checkcard')"
                 id="defaultOpen"
               >
                 Các loại thẻ
               </div>
               <div
-                class="py-3 px-2 md:px-10 tablinks"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
                 onclick="openTag(event, 'checkLoan')"
               >
                 Các khoản vay
               </div>
               <div
-                class="py-3 px-2 md:px-10 tablinks"
+                class="py-3 px-2 md:px-10 tablinks hover:text-primaryOrange"
                 onclick="openTag(event, 'checkProducts')"
               >
                 Sản phẩm khác
@@ -484,12 +484,12 @@
               id="checkcard"
             >
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard1.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -499,7 +499,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -535,12 +535,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard2.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -550,7 +550,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -586,12 +586,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard3.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -601,7 +601,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -638,12 +638,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard4.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -653,7 +653,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -689,12 +689,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard5.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -704,7 +704,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -740,12 +740,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard6.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -755,7 +755,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -797,12 +797,12 @@
               id="checkLoan"
             >
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard2.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -812,7 +812,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -848,12 +848,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard3.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -863,7 +863,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -900,12 +900,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard4.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -915,7 +915,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -951,12 +951,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard5.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -966,7 +966,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -1002,12 +1002,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard6.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -1017,7 +1017,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -1053,12 +1053,12 @@
                 </div>
               </div>
               <div
-                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center md:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
+                class="text-black bg-white col-span-1 flex flex-col md:flex-row items-center lg:items-start justify-between py-[21px] px-2 md:px-[15px] rounded-lg gap-x-4"
               >
                 <p class="w-[147px] shrink-0">
                   <img src="../img/visacard1.png" alt="card demo" />
                 </p>
-                <div class="block text-left mt-5 md:mt-0">
+                <div class="block text-left mt-5 md:mt-0 w-full">
                   <div class="flex items-center">
                     <div class="flex items-center">
                       <p class="w-5">
@@ -1068,7 +1068,7 @@
                         5.0<span class="font-extralight">/100+ nhận xét</span>
                       </p>
                     </div>
-                    <div class="flex items-center ml-6">
+                    <div class="flex items-center ml-3">
                       <p class="w-5">
                         <img src="../img/checkdone.png" alt="checkdone" />
                       </p>
@@ -1129,7 +1129,7 @@
                 báo chí nói về chúng tôi
               </h2>
               <p
-                class="font-light md:mt-12 mx-6 md:mx-[19rem] text-sm md:text-base"
+                class="font-light md:mt-12 mx-6 lg:mx-[19rem] text-sm md:text-base"
               >
                 Fingo là một nền tảng tài chính công nghệ trẻ, năng động đang
                 nhận được sự quan tâm của đông đảo khách hàng tại Việt Nam.
@@ -1137,14 +1137,14 @@
             </div>
             <div class="mt-10 mb-12 relative">
               <div
-                class="swiper-button-nextv2 absolute right-5 md:-right-10 top-1/2 z-10"
+                class="swiper-button-nextv2 absolute right-5 lg:-right-10 top-1/2 z-10"
               >
                 <p class="w-[19px]">
                   <img src="../img/slide-right.png" alt="arrow right" />
                 </p>
               </div>
               <div
-                class="swiper-button-prevv2 absolute left-5 md:-left-10 top-1/2 z-10"
+                class="swiper-button-prevv2 absolute left-5 lg:-left-10 top-1/2 z-10"
               >
                 <p class="w-[19px]">
                   <img src="../img/slide-left.png" alt="arrow left" />
@@ -1234,7 +1234,7 @@
               <p><img src="../img/righttop.png" alt="border" /></p>
               <p><img src="../img/rightbottom.png" alt="border" /></p>
               <div
-                class="bg-white rounded-[50px] flex flex-col md:flex-row items-center justify-between gap-x-[66px] px-3 md:px-14"
+                class="bg-white rounded-[50px] flex flex-col lg:flex-row items-center justify-between gap-x-[66px] px-3 md:px-14"
               >
                 <p class="md:shrink-0">
                   <img src="../img/socialmedia-fb.png" alt="using social" />
@@ -1382,7 +1382,7 @@
 
             <div class="mt-[90px] pb-12">
               <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-5 md:gap-y-0 gap-x-5 cursor-pointer"
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 cursor-pointer"
               >
                 <div class="col-span-1 text-center md:text-left">
                   <h3
@@ -1399,7 +1399,7 @@
                 <div class="bg-white rounded-2xl md:mx-0">
                   <p class="adjusted-img h-[200px] md:h-auto rounded-[25px]">
                     <img
-                      class="h-full md:h-auto object-cover md:object-none rounded-[25px]"
+                      class="h-full md:h-auto object-cover lg:object-none rounded-[25px]"
                       src="../img/Team.png"
                       alt="get the
                     money"
@@ -1427,7 +1427,7 @@
                 <div class="bg-white rounded-2xl md:mx-0">
                   <p class="adjusted-img h-[200px] md:h-auto">
                     <img
-                      class="h-full md:h-auto object-cover rounded-[25px]"
+                      class="h-full md:h-auto object-cover lg:object-none rounded-[25px]"
                       src="../img/guidehowtouse.png"
                       alt="guide how to use"
                     />
@@ -1454,7 +1454,7 @@
                 <div class="bg-white rounded-2xl md:mx-0">
                   <div class="adjusted-img h-[200px] md:h-auto">
                     <img
-                      class="h-full md:h-auto object-cover rounded-[25px]"
+                      class="h-full md:h-auto object-cover lg:object-none rounded-[25px]"
                       class="rounded-[25px]"
                       src="../img/getthemoney.png"
                       alt="get the money"
@@ -1522,7 +1522,7 @@
     <footer class="footer-control bg-[#FAFAFA]">
       <div class="max-w-containerMax mx-auto">
         <div
-          class="hidden email-form py-5 md:py-[75px] px-5 md:px-44 md:flex flex-col md:flex-row items-center justify-between"
+          class="hidden email-form py-5 md:py-[75px] px-5 md:px-44 lg:flex flex-col md:flex-row items-center justify-between"
         >
           <h4 class="text-2xl font-semibold text-white">
             Để lại email nhận ưu đãi từ Fingo
@@ -1546,12 +1546,12 @@
         </div>
 
         <div
-          class="md:hidden bg-[#014452] py-5 md:py-[75px] px-5 md:px-44 flex flex-col md:flex-row items-center justify-between"
+          class="lg:hidden bg-[#014452] py-5 md:py-[75px] px-5 lg:px-44 flex flex-col lg:flex-row items-center justify-between"
         >
           <h4 class="text-2xl font-semibold text-white">
             Để lại email nhận ưu đãi từ Fingo
           </h4>
-          <div class="flex mt-5 md:mt-0">
+          <div class="flex mt-5">
             <input
               class="py-3 px-6 rounded-full rounded-r-none border border-r-0 bg-transparent placeholder:font-light text-white placeholder:text-white focus-visible:outline-none"
               type="text"
@@ -1713,7 +1713,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col md:flex-row justify-around items-start md:items-center mt-6 md:mx-20 cursor-pointer"
+          class="flex flex-col md:flex-row justify-around items-start md:items-center mt-6 lg:mx-20 cursor-pointer"
         >
           <a class="font-light text-sm hover:underline mt-5 md:mt-0">
             Chính sách bảo mật
@@ -1774,12 +1774,16 @@
 
     var swiper = new Swiper(".mySwiper-slice", {
       breakpoints: {
-        "@1.00": {
+        640: {
           slidesPerView: 1,
           spaceBetween: 40,
         },
-        "@1.50": {
-          slidesPerView: 4,
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1024: {
+          slidesPerView: 5,
           spaceBetween: 50,
         },
       },
@@ -1813,11 +1817,15 @@
       // slidesPerView: 5,
       // spaceBetween: 30,
       breakpoints: {
-        "@1.00": {
+        640: {
           slidesPerView: 1,
           spaceBetween: 40,
         },
-        "@1.50": {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1024: {
           slidesPerView: 5,
           spaceBetween: 50,
         },
