@@ -876,14 +876,6 @@ html {
   margin-top: 1rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -956,6 +948,10 @@ html {
   margin-top: 3.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -1016,10 +1012,6 @@ html {
   height: 60px;
 }
 
-.h-\[18px\] {
-  height: 18px;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -1066,10 +1058,6 @@ html {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-\[1px\] {
-  width: 1px;
 }
 
 .w-\[140px\] {
@@ -1159,6 +1147,11 @@ html {
 
 .gap-y-5 {
   row-gap: 1.25rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .gap-x-5 {
@@ -1291,14 +1284,14 @@ html {
   background-color: rgb(245 130 31 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#014452\] {
   --tw-bg-opacity: 1;
   background-color: rgb(1 68 82 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-whiteopacity {
@@ -1354,6 +1347,10 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.to-\[\#FF7A00\] {
+  --tw-gradient-to: #FF7A00;
+}
+
 .to-\[\#FF6B00\] {
   --tw-gradient-to: #FF6B00;
 }
@@ -1401,11 +1398,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1419,6 +1411,11 @@ html {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-2\.5 {
@@ -1471,11 +1468,6 @@ html {
   padding-bottom: 10px;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1496,8 +1488,8 @@ html {
   padding-bottom: 15px;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pr-8 {
@@ -1576,21 +1568,12 @@ html {
   padding-bottom: 2.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
-}
-
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-base {
@@ -1601,6 +1584,11 @@ html {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -1627,16 +1615,16 @@ html {
   font-weight: 400;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-semibold {
   font-weight: 600;
 }
 
 .font-light {
   font-weight: 300;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-extralight {
@@ -1660,14 +1648,14 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-primaryGreen {
-  --tw-text-opacity: 1;
-  color: rgb(3 140 75 / var(--tw-text-opacity));
-}
-
 .text-primaryOrange {
   --tw-text-opacity: 1;
   color: rgb(245 130 31 / var(--tw-text-opacity));
+}
+
+.text-primaryGreen {
+  --tw-text-opacity: 1;
+  color: rgb(3 140 75 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -1717,16 +1705,6 @@ html {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.placeholder\:text-xs::-moz-placeholder {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.placeholder\:text-xs::placeholder {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .placeholder\:text-sm::-moz-placeholder {
@@ -2173,14 +2151,6 @@ html {
     margin-top: 0px;
   }
 
-  .lg\:ml-4 {
-    margin-left: 1rem;
-  }
-
-  .lg\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
   .lg\:ml-auto {
     margin-left: auto;
   }
@@ -2213,6 +2183,10 @@ html {
     width: 500px;
   }
 
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2237,9 +2211,9 @@ html {
     row-gap: 0px;
   }
 
-  .lg\:gap-x-0 {
-    -moz-column-gap: 0px;
-         column-gap: 0px;
+  .lg\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
   }
 
   .lg\:object-none {

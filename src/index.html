@@ -76,79 +76,71 @@
               <a class="w-6 cursor-pointer hidden lg:block" id="btnSearch">
                 <img src="../img/iconSearch.png" alt="icon social" />
               </a>
-              <p class="h-[18px] w-[1px] bg-white ml-2 hidden lg:block"></p>
 
               <i
                 class="fa-solid fa-bars text-white py-2 px-2 rounded-lg border border-white inline-block lg:hidden relative cursor-pointer"
                 id="menu-opennav"
               ></i>
-
-              <a class="w-6 ml-20 lg:ml-4">
-                <img src="../img/icontelegram.png" alt="icon social" />
-              </a>
-              <a class="w-6 lg:ml-6">
-                <img src="../img/iconFacebook.png" alt="icon social" />
-              </a>
-              <a class="w-6 lg:ml-6">
-                <img src="../img/iconglobal.png" alt="icon social" />
-              </a>
-              <a class="w-6 lg:ml-6">
-                <img src="../img/iconInstagram.png" alt="icon social" />
-              </a>
-              <a class="w-6 lg:ml-6">
-                <img src="../img/iconTwitter.png" alt="icon social" />
-              </a>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <nav
-          class="active-menu max-w-containerMax mx-auto md:py-[17px] nav-menu"
-        >
-          <ul
-            class="list-menu uppercase flex flex-col lg:flex-row justify-start md:justify-between items-start md:items-center text-base font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
-            id="list-menu"
-          >
-            <li class="block md:hidden ml-auto">
-              <button class="close-button" id="close-button">
-                <i class="fa-solid fa-xmark"></i>
+        <div class="max-w-containerMax mx-auto md:py-[17px]">
+          <nav class="active-menu nav-menu">
+            <ul
+              class="list-menu uppercase flex flex-col lg:flex-row justify-start md:justify-between items-start md:items-center text-sm font-normal hover:cursor-pointer fixed top-0 left-0 md:relative z-20 bg-[#014452] md:bg-white text-white md:text-black h-screen md:h-auto px-5 md:px-0 py-5 md:py-0"
+              id="list-menu"
+            >
+              <li class="block md:hidden ml-auto">
+                <button class="close-button" id="close-button">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </li>
+              <li>
+                <p class="w-28 h-[60px] block lg:hidden">
+                  <img src="../img/Logo.png" alt="Logo fingo" />
+                </p>
+              </li>
+              <li class="active py-3 md:py-0">
+                <a href="#"> trang chủ</a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> đăng ký vay tiền </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"></a>
+                MỞ THẺ TÍN DỤNG
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> ĐĂNG KÝ ĐẠI LÝ </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> tuyển dụng </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> tin tức </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> liên hệ </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <a href="#"> banker đăng nhập </a>
+              </li>
+              <li class="py-3 md:py-0 hover:text-primaryOrange">
+                <button
+                class="py-3 px-10 bg-gradient-to-l from-[#F79922] to-[#FF7A00] text-white rounded-full font-bold"
+              >
+                LIÊN HỆ
               </button>
-            </li>
-            <li>
-              <p class="w-28 h-[60px] block lg:hidden">
-                <img src="../img/Logo.png" alt="Logo fingo" />
-              </p>
-            </li>
-            <li class="active py-3 md:py-0">
-              <a href="#"> trang chủ</a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> đăng ký vay tiền </a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"></a>
-              MỞ THẺ TÍN DỤNG
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> ĐĂNG KÝ ĐẠI LÝ </a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> tuyển dụng </a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> tin tức </a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> liên hệ </a>
-            </li>
-            <li class="py-3 md:py-0">
-              <a href="#"> banker đăng nhập </a>
-            </li>
-          </ul>
-        </nav>
+              </li>
+            </ul>
+          </nav>
+        
+        </div>
       </section>
     </header>
+
     <main>
       <section class="banner-slideonTop md:relative pt-44 md:pt-0">
         <div class="manager-imagebanners">
@@ -324,7 +316,7 @@
             Bạn muốn so sánh gì?
           </h3>
           <div
-            class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mt-20 gap-x-5 lg:gap-x-0 gap-y-10"
+            class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 mt-20 gap-x-5 lg:gap-x-10 gap-y-10"
           >
             <div
               class="col-span-1 place-items-center place-content-center place-self-center bg-white rounded-xl md:rounded-[50px] shadow-shadowlg"
